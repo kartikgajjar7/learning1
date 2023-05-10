@@ -1,0 +1,22 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "this is namste react by akshay saini",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikgajjar7/learning1.git"
+  },
+  "author": "kartik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikgajjar7/learning1/issues"
+  },
+  "homepage": "https://github.com/kartikgajjar7/learning1#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
