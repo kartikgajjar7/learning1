@@ -38,7 +38,7 @@ const headingcomponent = () => <h1>hey there</h1>;
 
 - you cant render component like `root.render(headingcomponent)` coz the "headingcomponent" will returns jsx not but react element return the object.
 
-# diffranace betweem reactelement and react component
+# diffranace betweem react-element and react-component
 
 - React Element - It is a simple object that describes a DOM node and its attributes or properties you can say. It is an immutable description object and you can not apply any methods on it.
 
