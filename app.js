@@ -1,6 +1,13 @@
 import React from "react";
-import { ReactDOM } from "reactdom";
-const perent = React.createElement("div",{id:"perent"},[
-    React.createElement("div",{id:"h1"},"i m h1"),
-    React.createElement("div",{id:"h2"},"i am h2")
-])
+import ReactDOM from "react-dom/client";
+
+const name = React.createElement("div", { id: "heading" }, "hey");
+const root = ReactDOM.createRoot(document.getElementById("root"));
+const jsxheading = <h1>Namaste React</h1>;
+
+root.render(jsxheading);
+
+const Headingcomponent = () => {
+  return <h1>hey there</h1>;
+};
+console.log(<Headingcomponent />);
