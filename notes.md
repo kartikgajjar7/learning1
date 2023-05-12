@@ -60,7 +60,8 @@ const SignIn = () => (
 
 # React composition
 
-```const Secondcompontnt = () => <h1>hey i m second component</h1>;
+```
+const Secondcompontnt = () => <h1>hey i m second component</h1>;
 const Headingcomponent = () => (
   <div>
     <Secondcompontnt />
