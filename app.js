@@ -5,9 +5,13 @@ const name = React.createElement("div", { id: "heading" }, "hey");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const jsxheading = <h1>Namaste React</h1>;
 
-root.render(jsxheading);
 
-const Headingcomponent = () => {
-  return <h1>hey there</h1>;
-};
-console.log(<Headingcomponent />);
+
+const Secondcompontnt = () => <h1>hey i m second component</h1>;
+const Headingcomponent = () => (
+  <div>
+    <Secondcompontnt />
+    <h2>i am heading component</h2>
+  </div>
+);
+root.render(<Headingcomponent />);
